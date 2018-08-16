@@ -1,0 +1,1535 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#"
+     xml:base="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#EnvironmentPreference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#FoodPreference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#EconomyLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#EconomyLevel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#EnvironmentPreference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#EnvironmentPreference"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#FoodPreference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#FoodPreference"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#GuestHouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#GuestHouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VisitedHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#High -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#High">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#EconomyLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Hotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Hotel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VisitedHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#FoodPreference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Inn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Inn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VisitedHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Lodge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Lodge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VisitedHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Low -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Low">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#EconomyLevel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#EnvironmentPreference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Pub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Pub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VisitedHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Resort -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Resort">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VisitedHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Restaurant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Restaurant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VisitedHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#EnvironmentPreference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#FoodPreference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#SriLankan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#SriLankan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#FoodPreference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Villa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Villa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VisitedHotels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VisitedHotels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VisitedHotels"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Burger -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Burger"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#ChopSueNoodles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#ChopSueNoodles"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#CrispyChicken -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#CrispyChicken"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Fries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Fries"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Nuggets -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Nuggets"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Pizza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Pizza"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Salad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Salad"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VegeSalad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#VegeSalad"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Whooper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Whooper"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#adventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#arctic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#arctic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#atlantic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#atlantic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#bali -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#bali">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#baltic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#baltic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#baozi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#baozi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#bay -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#bay">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#beach -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#beach">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#billions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#billions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#High"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#biriyani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#biriyani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#bombay-duck -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#bombay-duck">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#calamari -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#calamari">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#camp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#camp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#cape -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#cape">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#caribbean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#caribbean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#catfish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#catfish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#chapati -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#chapati">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#charsiu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#charsiu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#cheap -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#cheap">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Low"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#chinese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#chinese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#chinesenoodles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#chinesenoodles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#chopsue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#chopsue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#chowmein -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#chowmein">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#clam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#clam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#cliff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#cliff">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#climb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#climb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#coast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#coast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#congee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#congee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#country -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#country">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#countrylife -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#countrylife">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#countryside -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#countryside">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#crab -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#crab">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#crawfish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#crawfish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#curanto -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#curanto">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#dimsum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#dimsum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#discount -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#discount">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Low"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#dosa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#dosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#dumplings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#dumplings">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#earthly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#earthly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#economic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#economic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Low"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#environment -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#environment">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#expensive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#expensive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#High"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#explore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#explore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#fish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#fish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#fishcake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#fishcake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#forest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#forest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#friedrice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#friedrice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#green -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#green">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#grits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#grits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#gulab -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#gulab">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#gulf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#gulf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#gumbo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#gumbo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#guotie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#guotie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#hike -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#hike">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#hill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#hill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#idli -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#idli">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#indian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#indian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#indianfood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#indianfood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#jalebi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#jalebi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#jellyfish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#jellyfish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#jiaozi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#jiaozi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#jungle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#jungle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#junkfood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#junkfood"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#keema -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#keema">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#kheer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#kheer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#khichdi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#khichdi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#korma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#korma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#laddu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#laddu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#lagoon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#lagoon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#lamian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#lamian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#latte -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#latte"/>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#lobster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#lobster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#luxury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#luxury">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#High"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#macau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#macau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#makhani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#makhani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#maldives -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#maldives">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mantou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mantou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#marine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#marine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#masala -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#masala">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mediterranean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mediterranean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#millions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#millions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#High"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mollusk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mollusk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#momo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#momo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mooncake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mooncake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mountain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mountain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mountaineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mountaineering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mountains -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#mountains">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#naan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#naan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#nature -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#nature">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#noodles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#noodles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#ocean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#ocean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#octopus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#octopus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#outdoor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#outdoor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#overseas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#overseas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#oyster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#oyster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#pacific -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#pacific">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#pakora -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#pakora">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#paneer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#paneer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#panipuri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#panipuri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#papadum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#papadum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#peek -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#peek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#plantation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#plantation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#poor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#poor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Low"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#rasgulla -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#rasgulla">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#redfish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#redfish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#reforest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#reforest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#rock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#rock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#roti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#roti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#rural -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#rural">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#salmon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#salmon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#sambar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#sambar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#samosa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#samosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#save -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#save">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Low"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#scenery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#scenery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#sea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#sea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seaborne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seaborne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seafood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seafood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seagrass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seagrass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seagull -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seagull">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seahorse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seahorse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#sealion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#sealion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seallop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seallop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seaside -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#seaside">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#shark -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#shark">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#shellfish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#shellfish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#ship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#ship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#shore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#shore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#shrimp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#shrimp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#skiing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#skiing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#spices -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#spices">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#squid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#squid">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#starfish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#starfish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#submarine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#submarine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#sunset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#sunset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#sushi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#sushi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#tandoori -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#tandoori">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#tikka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#tikka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#tilapia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#tilapia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#tongsui -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#tongsui">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#travel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#travel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#trees -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#trees">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#trekking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#trekking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#trout -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#trout">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#tuna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#tuna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#urchin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#urchin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#vada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#vada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#vegan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#vegan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Indian"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#village -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#village">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#walk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#walk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Mountains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#walleye -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#walleye">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Seafood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#waves -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#waves">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#whales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#whales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Beach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#wild -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#wild">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#wonton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#wonton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#wood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#wood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#woods -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#woods">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Rural"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#youtiao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#youtiao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#zhajiangmian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#zhajiangmian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#zhaliang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#zhaliang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#zongzi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#zongzi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/jithmiweerasekara/ontologies/User_Ontology#Chinese"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

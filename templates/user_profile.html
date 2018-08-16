@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block body %}
+    <div class="container">
+
+        <div class="row" style=" margin-top: 40px">
+            <div class="col-md-3" style="margin-top: 30px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpdX6tPX96Zk00S47LcCYAdoFK8INeCElPeJrVDrh8phAGqUZP_g">
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <h1 style="color: #212e94">{{ user.u_name }}</h1>
+                </div>
+                 <div class="row">
+                    <h5 style="color: #dc2102">{{ user.email }}</h5>
+                </div>
+                <div class="row">
+                    <h5>Age: {{ user.age }}</h5>
+                </div>
+                <div class="row">
+                    <h5 style="color: #dc6f20"> Food Preference:</h5>
+                    {% for k, v in user.food_pref.items() %}
+                    <div style="margin-left: 30px">
+                        <p>{{ k }} : {{ v }}</p><br/>
+                    </div>
+                     {% endfor %}
+                </div>
+
+                <div class="row">
+                    <h5 style="color: #dc6f20"> Environment Preference:</h5><br>
+                </div>
+                <div>
+                    {% for k, v in user.environment_p.items() %}
+                    <div style="margin-left: 5px">
+                        {{ k }} : {{ v }}
+                    </div>
+                     {% endfor %}
+                </div>
+                <div class="row">
+                    <h5>Economy Level: {{ user.eco_level }}</h5>
+                </div>
+
+
+
+
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+{% endblock %}

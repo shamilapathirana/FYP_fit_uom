@@ -1,0 +1,49 @@
+
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="row">
+    </div>
+
+    <h5 style="text-align: right"> Hi <a href="{{ url_for('user_prof') }}">{{ user.u_name }}</a>... </h5>
+    <div class="row">
+        &nbsp; &nbsp; &nbsp;Recommended hotels for you...
+    </div>
+    <div>
+        <hr style="width: auto; color: #4e555b">
+    </div>
+
+    <div class="row">
+    {% for hotel in allhotels %}
+
+        {% for attribute in hotel %}
+
+                <div class="col-sm-3 col-lg-3 col-md-3 ">
+                <div class="thumbnail">
+                    <div class="custom_size">
+                        <img style="width: 250px; height: 150px" src={{ attribute.image_url }}>
+                    </div>
+                    <br/>
+                    <div>
+                      <div>
+                          <button class="btn badge-success btn-sm" style="width: 120px;">More info</button>
+                          <button class="btn badge-info btn-sm" style="width: 120px">Check-in</button>
+
+
+
+                      </div>
+                    </div>
+                    <div class="caption">
+                      <h5>{{ attribute.h_name }}</h5>
+                    </div>
+
+                </div>
+            </div>
+
+        {% endfor %}
+
+    {% endfor %}
+    </div>
+
+
+{% endblock %}

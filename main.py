@@ -17,11 +17,11 @@ from UserProfile.MainModule import FeatureExtaction
 app = Flask(__name__)
 
 #---------------- creating db connection --------------------------#
-app.config['MONGO_DBNAME'] = 'zealous_01'
-app.config['MONGO_URI'] = 'mongodb://shamila:Sha123@ds253960.mlab.com:53960/zealous_01'
+app.config['MONGO_DBNAME'] = '<db name here>'
+app.config['MONGO_URI'] = '< mongo url here>'
 
-twitter_blueprint = make_twitter_blueprint(api_key='ih6S8J97RJ4DZmkhVVzkYgnR8',
-                                           api_secret='5zMcrDtKtwpFHQ5aJ8meCfPcw5UkwyDp8uPmtGCbOX3tUanjxe',
+twitter_blueprint = make_twitter_blueprint(api_key='<api key here>',
+                                           api_secret='<secret key here>',
                                            redirect_to='twitter_log')
 app.register_blueprint(twitter_blueprint, url_prefix='/twitter_login')
 
